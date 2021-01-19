@@ -6,7 +6,7 @@ public class PangramHackerRank
 	{
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter Any Sentence ?  ?");
-		String str=sc.next();
+		String str=sc.nextLine();
 		boolean rs=pangram(str);
 		if(rs==true)
 			System.out.println("pangram");
@@ -27,3 +27,6 @@ public class PangramHackerRank
 		return true;
 	}
 }
+//Enter Any Sentence ?  ?
+//The five boxing wizards jump quickly
+//pangram
