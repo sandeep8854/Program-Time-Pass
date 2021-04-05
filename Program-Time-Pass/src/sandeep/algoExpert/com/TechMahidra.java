@@ -17,13 +17,13 @@ public class TechMahidra
 	System.out.println(result);	
 	}
 
-	private static int methodBySandeep(int[] a)
+	private static int methodBySandeep(int[] sandeepArray)
 	{
 		int diff=0;
-		int n=a.length;
+		int n=sandeepArray.length;
 		for(int i=0;i<n-1;i++)
 		{
-			diff=Math.max(diff,a[i]-a[i+1]);
+			diff=Math.max(diff,sandeepArray[i]-sandeepArray[i+1]);
 		}
 		return diff;
 	}
